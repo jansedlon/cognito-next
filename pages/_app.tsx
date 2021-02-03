@@ -1,5 +1,5 @@
 import { AppProps } from "next/app";
-import Auth from "@aws-amplify/auth";
+import { Auth } from "aws-amplify";
 import "../styles/globals.css";
 
 Auth.configure({});
